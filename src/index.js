@@ -11,7 +11,7 @@ const store = configureStore({
         Home : homePageReducer
     }
 });
-
+ 
 ReactDOM.render(
   <Provider store={store}>
     <App />
