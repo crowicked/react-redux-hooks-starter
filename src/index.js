@@ -7,7 +7,7 @@ import App from './App';
 
 const store = configureStore({
   reducer: {
-    Home: itemReducer
+    Item: itemReducer
   }
 }, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
